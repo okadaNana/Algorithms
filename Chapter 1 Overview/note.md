@@ -39,6 +39,7 @@ A queue, can model customers waiting in line at a bank or cars waiting at a toll
 
 ## Overview of Data Structures
 **Characteristics of Data Structures**
+
 |Data Structures    |Advantages         |Disadvantage       |
 |:------------------|:------------------|:------------------|
 |Array|Quick insertion, very fast access if index known.|Slow search, slow deletion, fixed size.|
