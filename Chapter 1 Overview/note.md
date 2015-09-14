@@ -60,3 +60,8 @@ A queue, can model customers waiting in line at a bank or cars waiting at a toll
 * Delete a specified item.
 * *Iterate*  through all the items in a data structures.
 * *Sorting* data.
+
+## Summary
+* A data structure is the organization of data in a computer's memory or in a disk file.
+* The correct choice of data structure allow major improvements in program efficiency.
+* An algorithm is a procedure for carrying out a part
