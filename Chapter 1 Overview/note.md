@@ -10,7 +10,7 @@
 
 > A *data structures* is an arrangement of data in a computer's memory (or sometimes on a disk).
 
-Data structures include arrays, liked lists, stacks binary trees, and hash tables, among others.
+Data structures include arrays, liked lists, stacks, binary trees, and hash tables, among others.
 
 **Algorithms**
 
