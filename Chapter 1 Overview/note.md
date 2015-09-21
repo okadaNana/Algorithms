@@ -10,7 +10,7 @@
 
 > A *data structures* is an arrangement of data in a computer's memory (or sometimes on a disk).
 
-Data structures include arrays, liked lists, stacks binary trees, and hash tables, among others.
+Data structures include arrays, liked lists, stacks, binary trees, and hash tables, among others.
 
 **Algorithms**
 
@@ -64,4 +64,4 @@ A queue, can model customers waiting in line at a bank or cars waiting at a toll
 ## Summary
 * A data structure is the organization of data in a computer's memory or in a disk file.
 * The correct choice of data structure allow major improvements in program efficiency.
-* An algorithm is a procedure for carrying out a part
+* An algorithm is a procedure for carrying out a particular task.
