@@ -62,3 +62,39 @@ The disadvantage is that insertion takes longer because all the data item with a
 Deletion are slow in both ordered and unordered arrays because items must be moved down to fill the hole by the deleted item.
 
 Ordered arrays are therefore useful in situation in which searches are frequent, but insertion and deletion are not.
+
+## Big O Notation
+It's useful to have a shorthand way to say how efficient a computer algorithm is. In computer science, this rough measure is called "Big O" notation.
+
+## Insertion in an Unordered Array: Constant
+
+The time, T, to insert an item into an unsorted array is a constant K:
+```
+T = K
+```
+
+## Linear Search: Proportional to N
+```
+T = K * N
+```
+
+## Binary Search: Proportional to log(N)
+```
+T = K * log(N)
+```
+
+## Don't Need the Constant
+When comparing algorithms, you don't really care what about the particular microprocessor chip or compiler; all you want to compare is how T change for different values of N, not what the actual number are. Therefore, the constant isn't needed.
+
+## Running Times in Big O Notation
+|Algorithm|Running Time in Big O Notation|
+|:---:|:---:|
+|Linear search|O(N)|
+|Binary search|O(log N)|
+|Insertion in unordered array|O(1)|
+|Insertion in ordered array|O(N)|
+|Deletion in unordered array|O(N)|
+|Deletion in ordered array|O(N)|
+
+
+The idea of Big O notation isn't to give actual figure for running times but to convey how the running times are affected by the number of items. This is the most meaningful way to compare algorithms, except perhaps actually measuring running times in a real installation.
