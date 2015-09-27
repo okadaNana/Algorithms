@@ -98,3 +98,22 @@ When comparing algorithms, you don't really care what about the particular micro
 
 
 The idea of Big O notation isn't to give actual figure for running times but to convey how the running times are affected by the number of items. This is the most meaningful way to compare algorithms, except perhaps actually measuring running times in a real installation.
+
+## Why Not Use Arrays for Everything?
+We've already seen some of their disadvanteages.
+* In an unordered array you can insert items quickly, in O(1) time, but searching takes slow O(N) time.
+* In an ordered array you can search quickly, in O(logN) time, but insertion takes O(N) time.
+* For both kinds of arrays, deletion takes O(N) time because half the item (on the average) must be moved to fill in the hole.
+* Another problem with arrays is that their size of is fixed when they are first created with `new`.
+
+## Summary
+* Arrays in java are objects, create with the `new` operator.
+* Unordered arrays offer fast insertion but slow searching and deletion.
+* Wrapping an array in a class protects the array from being inadvertently altered.
+* A class interface is compose of the methods (and occasionally field) that the class user can access.
+* A class interface can be designed to make things simple for the class user.
+* A binary search can be applied to an ordered array.
+* The logarithm to the base B of a number A is (roughly) the number of times you can divide A by B before the result is less than 1.
+* Linear searches require time proportional to the number of items in an array.
+* Binary searches require time proportional to the logarithm of the number of items.
+* Big O notation provides a convenient way to compare the speed of algorithms.
